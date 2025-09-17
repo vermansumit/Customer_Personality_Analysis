@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Personal/M.Sc._CS/DataScience/Project/Q1.Project/customer_Personality_analysis/mlruns/500287582608367703/0600cb6716ab49be94c817854a24f193/artifacts
+end_time: 1758045603888
+entry_point_name: ''
+experiment_id: '500287582608367703'
+lifecycle_stage: active
+run_id: 0600cb6716ab49be94c817854a24f193
+run_name: rumbling-tern-506
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758045599062
+status: 3
+tags: []
+user_id: sumve
