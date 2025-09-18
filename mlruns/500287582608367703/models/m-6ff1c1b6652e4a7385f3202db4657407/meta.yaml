@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Personal/M.Sc._CS/DataScience/Project/Q1.Project/customer_Personality_analysis/mlruns/500287582608367703/models/m-6ff1c1b6652e4a7385f3202db4657407/artifacts
+creation_timestamp: 1758202657704
+experiment_id: '500287582608367703'
+last_updated_timestamp: 1758202663085
+model_id: m-6ff1c1b6652e4a7385f3202db4657407
+model_type: null
+name: rf_pipeline
+source_run_id: 3dcfd9c4d3d24d51aa467786ceca337b
+status: 2
+status_message: null

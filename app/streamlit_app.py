@@ -3,13 +3,13 @@ import joblib
 import pandas as pd
 
 st.title("Customer Response Predictor")
-model = joblib.load("../models/random_forest_pipeline.joblib")
+models = joblib.load("./models/random_forest_pipeline.joblib")
 
 Income = st.number_input("Income", 0.0)
 Age = st.number_input("Age", 18)
 Recency = st.number_input("Recency (days since Last purchase)", 0)
 TotalSpend = st.number_input("Total Spend", 0.0)
-NumWebvisitsMonth = st.number_input("Num Web Visits/Month", 0)
+NumWebVisitsMonth = st.number_input("Num Web Visits/Month", 0)
 Education = st.selectbox("Education", ["graduation", "phd", "master", "basic", "unknown"])
 Marital_Status = st.selectbox("Marital Status", ["single", "married", "divorced", "unknown", "together", "widow"])
 
@@ -19,11 +19,11 @@ if st.button("Predict"):
         "Age": Age,
         "Recency": Recency,
         "TotalSpend": TotalSpend,
-        "NumWebvisitsMonth": NumWebvisitsMonth,
+        "NumWebVisitsMonth": NumWebVisitsMonth,
         "Education": Education,
         "Marital_Status": Marital_Status
     }])
-    pred = model.predict(df)
-    prob = float(model.predict_proba(df)[:,1])
+    pred = models.predict(df)
+    prob = float(models.predict_proba(df)[:,1])
     st.write(f"Predicted response: {pred} (prob {prob:.2f})")
     

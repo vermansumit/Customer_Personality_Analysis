@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Personal/M.Sc._CS/DataScience/Project/Q1.Project/customer_Personality_analysis/mlruns/500287582608367703/3dcfd9c4d3d24d51aa467786ceca337b/artifacts
+end_time: 1758202663091
+entry_point_name: ''
+experiment_id: '500287582608367703'
+lifecycle_stage: active
+run_id: 3dcfd9c4d3d24d51aa467786ceca337b
+run_name: fun-finch-364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758202657643
+status: 3
+tags: []
+user_id: sumve
